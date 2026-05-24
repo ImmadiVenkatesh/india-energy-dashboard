@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-05-24",
+  "last_verified": "2024-02-01",
+  "fill_mmt": 5.33,
+  "fill_pct": 100.0,
+  "phase1_capacity_mmt": 5.33,
+  "phase2_capacity_mmt": 6.5,
+  "days_of_import_cover": 35.5,
+  "sites": [
+    {
+      "location": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "capacity_mmt": 1.33
+    },
+    {
+      "location": "Mangaluru (Padur)",
+      "state": "Karnataka",
+      "capacity_mmt": 2.5
+    },
+    {
+      "location": "Padur Phase-2",
+      "state": "Karnataka",
+      "capacity_mmt": 2.5
+    }
+  ],
+  "source": "Parliament Standing Committee on Petroleum & Natural Gas, Feb 2024",
+  "note": "ISPRL does not publish daily fill levels. Phase-1 fully operational.",
+  "latest_pib": null
+}

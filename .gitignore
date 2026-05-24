@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+pip-log.txt
+.env
+.venv
+venv/
+ENV/
+
+# Streamlit local
+.streamlit/secrets.toml
+
+# Data (only seed files are committed; daily updates via GitHub Actions)
+# Uncomment the line below ONLY if you want to track NO data files at all.
+# data/*.csv
+# data/*.json
+
+# Test artifacts
+.pytest_cache/
+*.pytest_cache
+htmlcov/
+.coverage
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/

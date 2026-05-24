@@ -1,0 +1,141 @@
+{
+  "as_of": "2026-05-24",
+  "disclaimer": "Estimated \u2014 not official prices.",
+  "rows": [
+    {
+      "city": "Delhi",
+      "brand": "Shell",
+      "date": "2026-05-24",
+      "petrol_per_litre": 98.27,
+      "diesel_per_litre": 89.67,
+      "source": "estimated",
+      "note": "PSU price + estimated Shell premium"
+    },
+    {
+      "city": "Mumbai",
+      "brand": "Shell",
+      "date": "2026-05-24",
+      "petrol_per_litre": 107.69,
+      "diesel_per_litre": 94.15,
+      "source": "estimated",
+      "note": "PSU price + estimated Shell premium"
+    },
+    {
+      "city": "Chennai",
+      "brand": "Shell",
+      "date": "2026-05-24",
+      "petrol_per_litre": 104.26,
+      "diesel_per_litre": 94.34,
+      "source": "estimated",
+      "note": "PSU price + estimated Shell premium"
+    },
+    {
+      "city": "Kolkata",
+      "brand": "Shell",
+      "date": "2026-05-24",
+      "petrol_per_litre": 108.51,
+      "diesel_per_litre": 93.82,
+      "source": "estimated",
+      "note": "PSU price + estimated Shell premium"
+    },
+    {
+      "city": "Bengaluru",
+      "brand": "Shell",
+      "date": "2026-05-24",
+      "petrol_per_litre": 106.36,
+      "diesel_per_litre": 90.94,
+      "source": "estimated",
+      "note": "PSU price + estimated Shell premium"
+    },
+    {
+      "city": "Delhi",
+      "brand": "Reliance",
+      "date": "2026-05-24",
+      "petrol_per_litre": 96.77,
+      "diesel_per_litre": 89.17,
+      "source": "estimated",
+      "note": "PSU price + estimated Reliance premium"
+    },
+    {
+      "city": "Mumbai",
+      "brand": "Reliance",
+      "date": "2026-05-24",
+      "petrol_per_litre": 106.19,
+      "diesel_per_litre": 93.65,
+      "source": "estimated",
+      "note": "PSU price + estimated Reliance premium"
+    },
+    {
+      "city": "Chennai",
+      "brand": "Reliance",
+      "date": "2026-05-24",
+      "petrol_per_litre": 102.76,
+      "diesel_per_litre": 93.84,
+      "source": "estimated",
+      "note": "PSU price + estimated Reliance premium"
+    },
+    {
+      "city": "Kolkata",
+      "brand": "Reliance",
+      "date": "2026-05-24",
+      "petrol_per_litre": 107.01,
+      "diesel_per_litre": 93.32,
+      "source": "estimated",
+      "note": "PSU price + estimated Reliance premium"
+    },
+    {
+      "city": "Bengaluru",
+      "brand": "Reliance",
+      "date": "2026-05-24",
+      "petrol_per_litre": 104.86,
+      "diesel_per_litre": 90.44,
+      "source": "estimated",
+      "note": "PSU price + estimated Reliance premium"
+    },
+    {
+      "city": "Delhi",
+      "brand": "Nayara",
+      "date": "2026-05-24",
+      "petrol_per_litre": 96.27,
+      "diesel_per_litre": 88.67,
+      "source": "estimated",
+      "note": "PSU price + estimated Nayara premium"
+    },
+    {
+      "city": "Mumbai",
+      "brand": "Nayara",
+      "date": "2026-05-24",
+      "petrol_per_litre": 105.69,
+      "diesel_per_litre": 93.15,
+      "source": "estimated",
+      "note": "PSU price + estimated Nayara premium"
+    },
+    {
+      "city": "Chennai",
+      "brand": "Nayara",
+      "date": "2026-05-24",
+      "petrol_per_litre": 102.26,
+      "diesel_per_litre": 93.34,
+      "source": "estimated",
+      "note": "PSU price + estimated Nayara premium"
+    },
+    {
+      "city": "Kolkata",
+      "brand": "Nayara",
+      "date": "2026-05-24",
+      "petrol_per_litre": 106.51,
+      "diesel_per_litre": 92.82,
+      "source": "estimated",
+      "note": "PSU price + estimated Nayara premium"
+    },
+    {
+      "city": "Bengaluru",
+      "brand": "Nayara",
+      "date": "2026-05-24",
+      "petrol_per_litre": 104.36,
+      "diesel_per_litre": 89.94,
+      "source": "estimated",
+      "note": "PSU price + estimated Nayara premium"
+    }
+  ]
+}

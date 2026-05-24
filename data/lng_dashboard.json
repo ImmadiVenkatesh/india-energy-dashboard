@@ -1,0 +1,74 @@
+{
+  "as_of": "2026-05-24",
+  "terminals": [
+    {
+      "terminal": "Dahej",
+      "state": "Gujarat",
+      "capacity_mmtpa": 22.5,
+      "operator": "Petronet LNG"
+    },
+    {
+      "terminal": "Kochi",
+      "state": "Kerala",
+      "capacity_mmtpa": 5.0,
+      "operator": "Petronet LNG"
+    },
+    {
+      "terminal": "Dabhol",
+      "state": "Maharashtra",
+      "capacity_mmtpa": 5.0,
+      "operator": "GAIL / RGPPL"
+    },
+    {
+      "terminal": "Ennore",
+      "state": "Tamil Nadu",
+      "capacity_mmtpa": 5.0,
+      "operator": "Indian Oil"
+    },
+    {
+      "terminal": "Mundra",
+      "state": "Gujarat",
+      "capacity_mmtpa": 5.0,
+      "operator": "GSPC / Swan LNG"
+    }
+  ],
+  "utilization": {
+    "Dahej": {
+      "utilization_pct": 86,
+      "as_of": "Q3 FY2025",
+      "source": "Petronet Q3FY25 presentation"
+    },
+    "Kochi": {
+      "utilization_pct": 32,
+      "as_of": "Q3 FY2025",
+      "source": "Petronet Q3FY25 presentation"
+    }
+  },
+  "henry_hub": {
+    "henry_hub_usd_mmbtu": 2.437,
+    "period": "2026-W21",
+    "source": "EIA Henry Hub weekly"
+  },
+  "jkm_spot": {
+    "jkm_usd_mmbtu": 11.85,
+    "period": "2026-05-24",
+    "source": "investing.com JKM spot (scraped)"
+  },
+  "ppac_monthly_import": {
+    "month": "Mar-2025",
+    "volume_mmt": 2.42,
+    "source": "PPAC Monthly LNG import statistics",
+    "note": "Update when PPAC releases new data"
+  },
+  "india_lng_imports_context": {
+    "primary_suppliers": [
+      "Qatar",
+      "USA",
+      "UAE",
+      "Australia",
+      "Russia"
+    ],
+    "long_term_contracts": "~70% of imports are under long-term contracts (Petronet-Rasgas, etc.)",
+    "spot_dependency": "~30% is spot/short-term, making JKM highly relevant for India import cost"
+  }
+}

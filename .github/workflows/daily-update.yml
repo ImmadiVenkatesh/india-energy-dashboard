@@ -1,0 +1,80 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    - cron: '0 1 * * *'        # 06:30 IST = 01:00 UTC
+  workflow_dispatch:            # Manual trigger from Actions tab
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write           # Allow commits back to repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run crude benchmarks scraper
+        run: python -m scrapers.crude_benchmarks
+        continue-on-error: true
+
+      - name: Run markets scraper
+        run: python -m scrapers.markets
+        continue-on-error: true
+
+      - name: Run fuel prices scraper
+        run: python -m scrapers.fuel_prices
+        continue-on-error: true
+
+      - name: Run private OMC estimator
+        run: python -m scrapers.private_omc
+        continue-on-error: true
+
+      - name: Run SPR / ISPRL scraper
+        run: python -m scrapers.spr_isprl
+        continue-on-error: true
+
+      - name: Run LNG data scraper
+        run: python -m scrapers.lng_data
+        continue-on-error: true
+
+      - name: Run attribution regression
+        run: python -m scrapers.attribution
+        continue-on-error: true
+
+      - name: Validate data files
+        run: pytest tests/test_scrapers.py -v --tb=short
+        continue-on-error: true   # Don't fail deploy if a scraper broke
+
+      - name: Commit updated data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/
+          git diff --staged --quiet || git commit -m "chore(data): daily update $(date -u +%Y-%m-%d)"
+          git push
+
+  # Optional: keep Streamlit app alive (prevents cold-start sleep)
+  keep-alive:
+    runs-on: ubuntu-latest
+    needs: update-data
+    steps:
+      - name: Ping Streamlit app
+        run: |
+          APP_URL="${{ secrets.STREAMLIT_APP_URL }}"
+          if [ -n "$APP_URL" ]; then
+            curl -s --max-time 30 "$APP_URL" > /dev/null && echo "Pinged $APP_URL" || echo "Ping failed (non-fatal)"
+          else
+            echo "STREAMLIT_APP_URL secret not set — skipping ping"
+          fi
+        continue-on-error: true

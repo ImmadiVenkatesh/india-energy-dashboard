@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-05-24",
+  "rows": [
+    {
+      "city": "Delhi",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 94.77,
+      "diesel_per_litre": 87.67
+    },
+    {
+      "city": "Mumbai",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 104.19,
+      "diesel_per_litre": 92.15
+    },
+    {
+      "city": "Chennai",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 100.76,
+      "diesel_per_litre": 92.34
+    },
+    {
+      "city": "Kolkata",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 105.01,
+      "diesel_per_litre": 91.82
+    },
+    {
+      "city": "Bengaluru",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 102.86,
+      "diesel_per_litre": 88.94
+    },
+    {
+      "city": "Hyderabad",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 107.41,
+      "diesel_per_litre": 95.65
+    },
+    {
+      "city": "Pune",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 104.95,
+      "diesel_per_litre": 91.72
+    },
+    {
+      "city": "Ahmedabad",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 96.43,
+      "diesel_per_litre": 89.88
+    },
+    {
+      "city": "Jaipur",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 108.48,
+      "diesel_per_litre": 93.72
+    },
+    {
+      "city": "Lucknow",
+      "omc": "PSU blend",
+      "date": "2026-05-24",
+      "petrol_per_litre": 94.65,
+      "diesel_per_litre": 87.76
+    }
+  ]
+}

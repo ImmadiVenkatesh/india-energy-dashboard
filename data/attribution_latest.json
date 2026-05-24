@@ -1,0 +1,30 @@
+{
+  "as_of": "2026-05-24",
+  "updated_at": "2026-05-24T04:16:00Z",
+  "nifty_return_today_pct": 0.41,
+  "r_squared": 0.3241,
+  "regression_period": "trailing 1 year daily returns",
+  "features": [
+    "brent",
+    "nifty_it",
+    "inr"
+  ],
+  "coefficients": {
+    "brent": 0.183,
+    "nifty_it": 0.461,
+    "inr": -0.092
+  },
+  "today_contributions_pct": {
+    "brent": 0.082,
+    "nifty_it": 0.274,
+    "inr": 0.019,
+    "unexplained": 0.035
+  },
+  "feature_labels": {
+    "brent": "Oil (Brent)",
+    "nifty_it": "Tech / AI (NIFTY IT)",
+    "inr": "Currency (INR/USD)"
+  },
+  "interpretation": "R squared shows how much of historical Nifty variance is explained.",
+  "caveat": "Regression coefficients estimated on trailing 1-year data. Not for investment decisions."
+}
