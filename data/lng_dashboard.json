@@ -36,29 +36,26 @@
     "Dahej": {
       "utilization_pct": 86,
       "as_of": "Q3 FY2025",
-      "source": "Petronet Q3FY25 presentation"
+      "source": "Petronet LNG investor presentation Q3FY25"
     },
     "Kochi": {
       "utilization_pct": 32,
       "as_of": "Q3 FY2025",
-      "source": "Petronet Q3FY25 presentation"
+      "source": "Petronet LNG investor presentation Q3FY25",
+      "note": "Low utilization due to missing Bangalore pipeline link"
     }
   },
   "henry_hub": {
-    "henry_hub_usd_mmbtu": 2.437,
-    "period": "2026-W21",
+    "henry_hub_usd_mmbtu": 2.86,
+    "period": "2026-05-15",
     "source": "EIA Henry Hub weekly"
   },
-  "jkm_spot": {
-    "jkm_usd_mmbtu": 11.85,
-    "period": "2026-05-24",
-    "source": "investing.com JKM spot (scraped)"
-  },
+  "jkm_spot": null,
   "ppac_monthly_import": {
     "month": "Mar-2025",
     "volume_mmt": 2.42,
     "source": "PPAC Monthly LNG import statistics",
-    "note": "Update when PPAC releases new data"
+    "note": "Update this when PPAC releases new monthly data"
   },
   "india_lng_imports_context": {
     "primary_suppliers": [
@@ -69,6 +66,6 @@
       "Russia"
     ],
     "long_term_contracts": "~70% of imports are under long-term contracts (Petronet-Rasgas, etc.)",
-    "spot_dependency": "~30% is spot/short-term, making JKM highly relevant for India import cost"
+    "spot_dependency": "~30% is spot/short-term, making JKM highly relevant for India's import cost"
   }
 }
