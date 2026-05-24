@@ -21,9 +21,19 @@
       "location": "Padur Phase-2",
       "state": "Karnataka",
       "capacity_mmt": 2.5
+    },
+    {
+      "location": "Bikaner (Rajasthan)",
+      "state": "Rajasthan",
+      "capacity_mmt": 2.5
+    },
+    {
+      "location": "Chandikhol",
+      "state": "Odisha",
+      "capacity_mmt": 4.0
     }
   ],
   "source": "Parliament Standing Committee on Petroleum & Natural Gas, Feb 2024",
-  "note": "ISPRL does not publish daily fill levels. Phase-1 fully operational.",
+  "note": "ISPRL does not publish daily fill levels. This figure represents Phase-1 capacity (5.33 MMT) fully operational. Check source for any newer parliamentary statements.",
   "latest_pib": null
 }

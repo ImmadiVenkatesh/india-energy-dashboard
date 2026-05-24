@@ -12,7 +12,7 @@
     "status": "ok"
   },
   "spr_isprl": {
-    "updated_at": "2026-05-24T04:16:00Z",
+    "updated_at": "2026-05-24T04:18:03Z",
     "status": "ok"
   },
   "lng_data": {
@@ -24,7 +24,7 @@
     "status": "ok"
   },
   "attribution": {
-    "updated_at": "2026-05-24T04:16:00Z",
-    "status": "ok"
+    "updated_at": "2026-05-24T04:18:09Z",
+    "status": "error"
   }
 }
