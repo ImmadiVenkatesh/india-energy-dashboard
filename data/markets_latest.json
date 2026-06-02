@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-06-01",
+  "as_of": "2026-06-02",
   "latest": {
-    "nifty50": 23581.94921875,
-    "nifty_it": 30116.0,
-    "gold_mcx": 4548.0,
-    "inr_usd": 94.87750244140625,
-    "sensex": 74993.09375
+    "nifty50": 23289.30078125,
+    "nifty_it": 31129.099609375,
+    "gold_mcx": 4548.7998046875,
+    "inr_usd": 95.15750122070312,
+    "sensex": 74203.890625
   },
   "inr_per_usd": 0.0105,
   "daily_returns_pct": {
-    "nifty50": 0.145,
-    "nifty_it": 3.562,
-    "gold_mcx": -0.274,
-    "inr_usd": -1.219,
-    "sensex": 0.291
+    "nifty50": -0.399,
+    "nifty_it": 4.27,
+    "gold_mcx": 1.645,
+    "inr_usd": 0.163,
+    "sensex": -0.085
   }
 }
