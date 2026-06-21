@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-06-20",
+  "as_of": "2026-06-21",
   "latest": {
     "nifty50": 24013.099609375,
     "nifty_it": 27426.849609375,
@@ -9,10 +9,10 @@
   },
   "inr_per_usd": 0.0106,
   "daily_returns_pct": {
-    "nifty50": -0.107,
-    "nifty_it": -3.713,
+    "nifty50": -0.641,
+    "nifty_it": -3.652,
     "gold_mcx": -1.212,
     "inr_usd": -0.579,
-    "sensex": -0.406
+    "sensex": -0.784
   }
 }
