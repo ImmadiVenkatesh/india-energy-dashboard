@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-07-08",
+  "as_of": "2026-07-09",
   "terminals": [
     {
       "terminal": "Dahej",
@@ -46,8 +46,8 @@
     }
   },
   "henry_hub": {
-    "henry_hub_usd_mmbtu": 3.2,
-    "period": "2026-06-26",
+    "henry_hub_usd_mmbtu": 3.34,
+    "period": "2026-07-03",
     "source": "EIA Henry Hub weekly"
   },
   "jkm_spot": null,
