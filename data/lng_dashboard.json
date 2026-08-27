@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-08-26",
+  "as_of": "2026-08-27",
   "terminals": [
     {
       "terminal": "Dahej",
@@ -46,9 +46,9 @@
     }
   },
   "henry_hub": {
-    "henry_hub_usd_mmbtu": 2.79,
-    "period": "2026-08-14",
-    "source": "EIA Henry Hub weekly"
+    "henry_hub_usd_mmbtu": 2.908,
+    "period": "2026-08-27",
+    "source": "yfinance NG=F (Henry Hub futures)"
   },
   "jkm_spot": null,
   "ppac_monthly_import": {
