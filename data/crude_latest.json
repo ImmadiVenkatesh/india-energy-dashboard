@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-08-28T12:24:44Z",
+  "as_of": "2026-08-29T07:34:03Z",
   "prices_usd_bbl": {
-    "brent": 87.87000274658203,
-    "wti": 82.80999755859375,
-    "inr_usd": 95.36799621582031,
-    "indian_basket": 87.17
+    "brent": NaN,
+    "wti": NaN,
+    "inr_usd": 95.37999725341797,
+    "indian_basket": NaN
   }
 }
