@@ -1,30 +1,30 @@
 {
   "crude_benchmarks": {
-    "updated_at": "2026-09-13T05:32:00Z",
+    "updated_at": "2026-09-14T05:36:21Z",
     "status": "ok"
   },
   "fuel_prices": {
-    "updated_at": "2026-09-13T05:32:05Z",
+    "updated_at": "2026-09-14T05:36:35Z",
     "status": "ok"
   },
   "private_omc": {
-    "updated_at": "2026-09-13T05:35:04Z",
+    "updated_at": "2026-09-14T05:39:36Z",
     "status": "ok"
   },
   "spr_isprl": {
-    "updated_at": "2026-09-13T05:35:09Z",
+    "updated_at": "2026-09-14T05:39:42Z",
     "status": "ok"
   },
   "lng_data": {
-    "updated_at": "2026-09-13T05:35:45Z",
+    "updated_at": "2026-09-14T05:40:18Z",
     "status": "ok"
   },
   "markets": {
-    "updated_at": "2026-09-13T05:32:02Z",
+    "updated_at": "2026-09-14T05:36:22Z",
     "status": "ok"
   },
   "attribution": {
-    "updated_at": "2026-09-13T05:35:47Z",
+    "updated_at": "2026-09-14T05:40:21Z",
     "status": "error"
   }
 }

@@ -1,18 +1,18 @@
 {
-  "as_of": "2026-09-13",
+  "as_of": "2026-09-14",
   "latest": {
     "nifty50": 23398.099609375,
     "nifty_it": 28921.5,
-    "gold_mcx": 4408.89990234375,
     "sensex": 74781.7578125,
-    "inr_usd": 95.55000305175781
+    "gold_mcx": 4367.89990234375,
+    "inr_usd": 95.54000091552734
   },
   "inr_per_usd": 0.0105,
   "daily_returns_pct": {
     "nifty50": -0.339,
     "nifty_it": 0.106,
-    "gold_mcx": 1.017,
-    "inr_usd": 0.01,
+    "gold_mcx": 0.039,
+    "inr_usd": -0.01,
     "sensex": -0.161
   }
 }
